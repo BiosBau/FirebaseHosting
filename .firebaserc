@@ -1,0 +1,44 @@
+{
+  "projects": {
+    "default": "websites-eed83"
+  },
+  "targets": {
+    "websites-eed83": {
+      "hosting": {
+        "bioslehm-com": [
+          "bioslehm-com-0"
+        ],
+        "bioslehm-at": [
+          "bioslehm-at-0"
+        ],
+        "biosbau": [
+          "biosbau-com-0"
+        ],
+        "biosbb": [
+          "biosbb-com-0"
+        ],
+        "bioshaus": [
+          "bioshaus-com"
+        ],
+        "bioshof": [
+          "bioshof-com-0"
+        ],
+        "holz-hof": [
+          "holz-hof-com"
+        ],
+        "palladiumbau": [
+          "palladiumbau-com-0"
+        ],
+        "platin-vr": [
+          "platin-vr-com-0"
+        ],
+        "rhodium-iv": [
+          "rhodium-iv-com-0"
+        ],
+        "websites-eeds83": [
+          "websites-eed83"
+        ]
+      }
+    }
+  }
+}
