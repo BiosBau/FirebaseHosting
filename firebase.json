@@ -1,5 +1,6 @@
 {
-  "hosting": [ {
+  "hosting": [
+    {
       "_comment": "Wieso existiert diese Seite? Sie Fuehrt nur zu einem Firebase example!",
       "target": "biosbb",
       "public": "public/biosbb.com",
