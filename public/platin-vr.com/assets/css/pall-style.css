@@ -42,7 +42,8 @@ header {
 }
 
 .text-shadow {
-    text-shadow: 1px 1px #fff;
+    /* text-shadow: 1px 1px #fff; */
+    -webkit-text-stroke: 1px black;
 }
 
 /*==========================================================
