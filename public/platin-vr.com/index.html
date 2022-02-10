@@ -143,49 +143,67 @@
                     </h5>
 
                     <div class="row mt-5">
-                        <div class="col-12 col-sm-4">
+                        <div style="padding-top: 2em;" class="col-12 col-sm-4">
                             <div class="container">
                                 <div class="row">
-                                    <p>Wissen kann Materie schaffen,</p>
+                                    <div class="bernhard_text">
+                                        <p>Wissen kann Materie schaffen,</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <p>Materie kann Leid schaffen,</p>
+                                    <div class="bernhard_text">
+                                        <p>Materie kann Leid schaffen,</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <p>Leid kann Wissen schaffen!</p>
+                                    <div class="bernhard_text">
+                                        <p>Leid kann Wissen schaffen!</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4">
+                        <div style="padding-top: 2em;" class="col-12 col-sm-4">
                             <div class="container">
                                 <div class="row">
-                                    <p>Selbstachtung ist auch,</p>
+                                    <div class="bernhard_text">
+                                        <p>Selbstachtung ist auch,</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <p>sich mit Materie zu umgeben,</p>
+                                    <div class="bernhard_text">
+                                        <p>sich mit Materie zu umgeben,</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <p>die Bestand hat!</p>
+                                    <div class="bernhard_text">
+                                        <p>die Bestand hat!</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-sm-4">
+                        <div style="padding-top: 2em;" class="col-12 col-sm-4">
                             <div class="container">
                                 <div class="row">
-                                    <p>Materie deren Betrieb sicher ist,</p>
+                                    <div class="bernhard_text">
+                                        <p>Materie deren Betrieb sicher ist,</p>
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <p>führt zu Zufriedenheit aller und</p> 
+                                    <div class="bernhard_text">
+                                        <p>führt zu Zufriedenheit aller und</p> 
+                                    </div>
                                 </div>
                                 <div class="row">
-                                    <p>zum eigenen Glück führen!</p>
+                                    <div class="bernhard_text">
+                                        <p>zum eigenen Glück führen!</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div style="position: relative;" class="col-10 col-sm-6 col-lg-4">
+                <div class="col-10 col-sm-6 col-lg-4">
                     <img style="margin: auto;" alt="image" class="img-fluid" src="assets/images/bernhard/B-W-ueberuns.png">
                 </div>
             </div>
@@ -333,8 +351,12 @@
             time: 3000
         });
 
+        $(document).ready(function() {
+            if ($(window).width() <= 575) {
+                $(".bernhard_text").addClass("col-12 text-center")
+            }
+        })
+
     </script>
-
 </body>
-
 </html>
