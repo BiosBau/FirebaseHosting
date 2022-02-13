@@ -138,7 +138,7 @@
       ]
     },
     {
-      "target": "platin-br",
+      "target": "platin-vr-com-0",
       "public": "public/platin-vr.com",
       "ignore": [
         "firebase.json",
