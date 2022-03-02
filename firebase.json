@@ -138,6 +138,21 @@
       ]
     },
     {
+      "target": "platin-bm",
+      "public": "public/platin-bm.com",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    },
+    {
       "target": "rhodium-iv",
       "public": "public/rhodium-iv.com",
       "ignore": [
