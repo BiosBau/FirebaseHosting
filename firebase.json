@@ -123,21 +123,6 @@
       ]
     },
     {
-      "target": "platin-vr",
-      "public": "public/platin-vr.com",
-      "ignore": [
-        "firebase.json",
-        "**/.*",
-        "**/node_modules/**"
-      ],
-      "rewrites": [
-        {
-          "source": "**",
-          "destination": "/index.html"
-        }
-      ]
-    },
-    {
       "target": "platin-bm",
       "public": "public/platin-bm.com",
       "ignore": [
