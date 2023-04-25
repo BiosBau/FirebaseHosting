@@ -77,8 +77,9 @@
       ]
     },
     {
+      "_comment": "bioslehm domain redirects to biosbau ... url should stay the same so the biosbau file is linked in the backend",
       "target": "bioslehm-com",
-      "public": "public/bioslehm.com_20210706",
+      "public": "public/biosbau.com_20220102",
       "ignore": [
         "firebase.json",
         "**/.*",
@@ -92,9 +93,9 @@
       ]
     },
     {
-      "_comment": "Es gibt kein eigenes .at file. Das ist wieder nur ein leeres default Projekt. Ich verwend jetzt einfach die .com files fuer die URL",
+      "_comment": "bioslehm domain redirects to biosbau ... url should stay the same so the biosbau file is linked in the backend",
       "target": "bioslehm-at",
-      "public": "public/bioslehm.com_20210706",
+      "public": "public/biosbau.com_20220102",
       "ignore": [
         "firebase.json",
         "**/.*",
