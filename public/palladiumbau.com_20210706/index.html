@@ -79,34 +79,70 @@
     </section><!-- /.section -->
 
     <!-- Contents 35 -->
-    <section id="uns" class="fdb-block bg-primary ">
-        <div class="container">
+    <section id="uns" class="fdb-block bg-primary">
+
+        <!-- Bernhard Wallner -->
+        <div style="margin-top: 4em; margin-bottom: 4em;" class="">
             <div class="row text-left align-items-center">
-                <div class="col-10 col-sm-6 m-auto m-lg-0 col-lg-4 pt-3 pb-3">
-                    <img alt="image" class="img-fluid" src="assets/images/Pall-bilder/Bernhard.jpg">
+                <div class="col-2"></div> <!-- puffer -->
+                <div class="col-12 col-sm-6 col-md-2">
+                    <img width="350" alt="image" class="img-fluid" id="bernhard_img" src="assets/images/Pall-bilder/Bernhard.jpg">
                 </div>
 
-                <div class="col-12 col-lg-7 offset-lg-1 pt-4 pt-lg-0">
-                    <h2>Jakob Hammer</h2>
-                    <h5 class="pt-2 pb-3">30 Jahre Erfahrung am Bau – seit 10 Jahren intensive Beschäftigung im Holzbau</h5>
-
-                    <div class="row mt-5">
-                        <div class="col-12 col-sm-6">
-                            <dl>
-                                <dt>Was können Sie von mir erwarten:</dt>
-                                <dd>-) für Ihre Bauwünsche eine Lösung finden</dd>
-                                <dd>-) Klarheit beim Bau-Ablauf</dd>
-                                <dd>-) Begleitung bis zur Baufertigstellung</dd>
-                            </dl>
-                        </div>
-
-                        <div class="col-12 col-sm-6 pt-3 pt-sm-0">
-                            <dl>
-                                <dt>Warum mache ich das?</dt>
-                                <dd>-) Weil es mir Freude macht, Menschen ihren Wohnraum mit zu schaffen</dd>
-                            </dl>
+                <div class="col-12 col-md-6 pt-4 pt-lg-0">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12">
+                                <h2>Bernhard WALLNER</h2>
+                                <h5 class="pt-2">
+                                    Seit 1994 Unternehmer im Bereich<br>
+                                    Informationstechnologie, Riskmanagement, Produktion & Bau
+                                </h5>
+                            </div>
                         </div>
                     </div>
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="container" style="margin-top: 1em;">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="bernhard_text">
+                                            <p>
+                                                Wissen kann Materie schaffen,<br>
+                                                Materie kann Leid schaffen,<br>
+                                                Leid kann Wissen schaffen!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="bernhard_text">
+                                            <p>
+                                                Selbsterhaltung bedeutet auch<br>
+                                                sich mit Materie zu umgeben,<br>
+                                                deren Bestand Sie sichern!
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="bernhard_text">
+                                            <p>
+                                                Materie auch zum Vorteil Anderer,<br>
+                                                führt zur Zufriedenheit aller und<br>
+                                                kann zum eigenen Glück führen!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div style="text-align: right; margin-top: -0.5rem;" class="col-sm-12">
+                                        <p>(Bernhard Wallner, März 2022)</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -805,6 +841,12 @@
             delay: 10,
             time: 3000
         });
+
+        $(document).ready(function() {
+            if ($(window).width() <= 575) {
+                $(".bernhard_text").addClass("col-12 text-center")
+            }
+        })
 
     </script>
 
