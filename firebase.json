@@ -152,6 +152,21 @@
           "destination": "/index.html"
         }
       ]
+    },
+    {
+      "target": "sct",
+      "public": "public/sct",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
     }
   ]
 }
